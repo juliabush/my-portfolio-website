@@ -133,7 +133,7 @@
     background-color: rgba(24, 13, 53, 0.7);
     z-index: 10;
     width: 320px;
-    height: 460px;
+    height: 470px;
     border-radius: 1rem;
     cursor: pointer;
   }
@@ -141,7 +141,7 @@
     margin-top: 1.25rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    margin-bottom: .3rem;
+    margin-bottom: .75rem;
   }
   iframe {
     border-radius: 0.7rem;
@@ -212,6 +212,7 @@
     text-shadow: 6px 6px 6px rgba(1, 0, 2, 0.938);
   }
   .caption {
+    margin-top: .25rem;
     font-size: 1rem;
     opacity: 0.8;
   }
