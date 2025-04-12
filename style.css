@@ -1,0 +1,217 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  Font-family: inherit;
+  }
+  
+  html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  
+  ul[role='list'],
+  ol[role='list'] {
+    list-style: none;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+  html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Manrope';
+}
+   main {
+    display: grid;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(73, 17, 41), rgb(5, 6, 44));
+  }
+  .stars-layover {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    object-fit: cover;
+  }
+  .website__text-container {
+    width: 500px;
+    display: grid;
+    place-content: start;
+    color: white;
+    margin: 5%;
+  }
+  .pattern-hills-layover {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    object-fit: cover;
+  }
+  .heading__name {
+    font-size: 2.5rem;
+    text-shadow: 6px 6px 10px rgb(1, 1, 32);
+    letter-spacing: 1px;
+  }
+  .main__paragraph {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 6px rgb(1, 1, 32);
+  }
+  .icon-family__container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5%;
+    place-self: end;
+    display: flex;
+    gap: 2rem;
+  }
+  .icon__container p {
+    position: absolute;
+    top: 110%;
+    color: white;
+  }
+  .icon__container {
+    display: grid;
+    justify-items: center;
+    gap: .1rem;
+  }
+  .icon__container a {
+    z-index: 10;
+    text-decoration: none;
+    color: white;
+    display: grid;
+    place-content: center;
+    width: 42px;
+    padding: .7rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .icon__container a:hover {
+    border: 2px solid aqua;
+    color: aqua;
+  }
+  .icon__container a:focus {
+    border: 2px solid aqua;
+    color: aqua;
+  }
+  .project-carousel__container {
+    overflow-x: hidden;
+    position: relative;
+    z-index: 15;
+    bottom: 13%;
+    width: 100%;
+  }
+  .project-carousel {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 2.5rem;
+    width: max-content;
+  }
+  .carousel-card {
+    background-color: rgba(24, 13, 53, 0.7);
+    z-index: 10;
+    width: 320px;
+    height: 460px;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  .iframe__container {
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: .3rem;
+  }
+  iframe {
+    border-radius: 0.7rem;
+    width: 100%;
+    height: 310px;
+
+  }
+  .project-carousel__container img {
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: .75rem;
+    border-radius: 0.7rem;
+    width: 280px;
+    height: 160px;
+   object-fit: cover;
+  }
+  #extended-image{
+    height: 310px;
+  }
+  .project-carousel__container p {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  .project-carousel__container a button {
+    width: 216px;
+    border-radius: .5rem;
+    padding: .5rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 6px 6px 10px rgb(1, 1, 32);
+    background-color: rgb(72, 52, 163);
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.795);
+    border: none;
+    cursor: pointer;
+  }
+  .project-carousel__container a button:hover {
+    background-color: aqua;
+    color: black;
+  }
+  .project-carousel__container a button:focus {
+    background-color: aqua;
+    color: black;
+  }
+  .icon-button__flexbox {
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 1.25rem;
+    margin-left: 1.25rem;
+    margin-bottom: 1rem;
+    gap: 1.25rem;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .stack {
+    font-size: 0.9rem;
+    color: rgba(144, 90, 175);
+    font-weight: 800;
+    text-shadow: 1px 1px 4px rgba(90, 72, 102, 0.753);
+  }
+  .project-title {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.45rem;
+    text-shadow: 6px 6px 6px rgba(1, 0, 2, 0.938);
+  }
+  .caption {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
