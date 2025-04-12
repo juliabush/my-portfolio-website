@@ -133,7 +133,7 @@
     background-color: rgba(24, 13, 53, 0.7);
     z-index: 10;
     width: 320px;
-    height: 480px;
+    height: 470px;
     border-radius: 1rem;
     cursor: pointer;
   }
@@ -141,7 +141,7 @@
     margin-top: 1.25rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    margin-bottom: .75rem;
+    margin-bottom: 1rem;
   }
   iframe {
     border-radius: 0.7rem;
@@ -161,6 +161,7 @@
   }
   #extended-image{
     height: 310px;
+    margin-bottom: 1.25rem;
   }
   .project-carousel__container p {
     margin-left: 1.25rem;
