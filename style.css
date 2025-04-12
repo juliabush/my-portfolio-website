@@ -133,7 +133,7 @@
     background-color: rgba(24, 13, 53, 0.7);
     z-index: 10;
     width: 320px;
-    height: 470px;
+    height: 480px;
     border-radius: 1rem;
     cursor: pointer;
   }
@@ -192,11 +192,8 @@
     opacity: 0.9;
     position: absolute;
     margin-left: 1.25rem;
-    margin-left: 1.25rem;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 0.75rem;
     gap: 1.25rem;
-    bottom: 0;
     display: flex;
     align-items: center;
   }
