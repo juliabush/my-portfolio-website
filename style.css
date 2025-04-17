@@ -244,10 +244,11 @@
   }
   @media (max-width:600px) {
     .website__text-container {
-      width: 400px;
+      width: 300px;
     }
     .main__paragraph {
       font-size: 1.3rem;
+      margin-bottom: 0.25rem;
     }
   }
   @media (min-width:260px) and (max-width:500px) {
