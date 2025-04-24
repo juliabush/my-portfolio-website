@@ -66,6 +66,7 @@
     object-fit: cover;
   }
   .heading__name {
+    position: relative;
     font-size: 2.5rem;
     text-shadow: 6px 6px 10px rgb(1, 1, 32);
     letter-spacing: 1px;
@@ -216,9 +217,36 @@
     opacity: 0.8;
   }
   .hamburger-icon {
-    visibility: hidden;
     color: white;
     font-size: 2rem;
+  }
+  .angle-up-menu-open {
+    position: absolute;
+    top: 4px;
+    color: white;
+    font-size: 2rem;
+    display: none !important;
+  }
+  .dropdown-menu-contents {
+    display: block;
+  }
+  .button {
+    display: none;
+    /* position: relative; */
+    bottom: 560%;
+    left: 93%;
+  }
+  .button-2 {
+    display: none;
+  }
+  .invisible {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+  .dropdown-menu-contents {
+    display: none;
   }
   @media (max-width:1000px) {
     .project-carousel__container {
@@ -255,6 +283,13 @@
     .heading__name {
       font-size: 2rem;
     }
+    .project-carousel__container {
+      overflow-x: hidden;
+      position: relative;
+      z-index: 15;
+      bottom: 5%;
+      width: 100%;
+    }
     .website__text-container {
       width: 280px;
       margin: 8%;
@@ -271,5 +306,48 @@
     }
     .icon-family__container {
       margin: 8%;
+    }
+    .angle-up-menu-open {
+      position: absolute;
+      top: 4px;
+      color: white;
+      font-size: 2rem;
+      display: none;
+    }
+    .button {
+      /* display: none; */
+      /* position: relative;
+      bottom: 320%;
+      left: 87%;
+      z-index: 60;
+      background: transparent;
+      border: none; */
+      display: block;
+      position: absolute;
+      top: 5%;
+      left: 87%;
+      z-index: 67;
+      background: transparent;
+      border: none;
+    }
+    .button-2 {
+      display: none;
+      position: absolute;
+      top: 5%;
+      left: 87.5%;
+      z-index: 60;
+      background: transparent;
+      border: none;
+    }
+    .visible {
+      display: block;
+    }
+    .invisible {
+      display: none;
+    }
+    .dropdown-menu-contents {
+      display: block;
+      width: fit-content;
+      background: blue;
     }
   }

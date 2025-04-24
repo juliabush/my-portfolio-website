@@ -1,3 +1,18 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const dropdownMenu = document.getElementById("dropdown-menu");
+  const openMenu = document.getElementById("open-menu");
+  dropdownMenu.addEventListener("click", () => {
+    dropdownMenu.classList.add("invisible");
+    openMenu.classList.add("visible");
+  });
+  openMenu.addEventListener("click", () => {
+    dropdownMenu.classList.remove("invisible");
+    openMenu.classList.remove("visible");
+  });
+});
+
+
+
 window.addEventListener('DOMContentLoaded', () => {
     const familyCarousel = document.getElementById('carousel-container');
     const track = document.getElementById('carousel-track');
@@ -34,4 +49,3 @@ window.addEventListener('DOMContentLoaded', () => {
   
     requestAnimationFrame(scrollCarousel);
   });
-  
