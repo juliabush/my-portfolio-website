@@ -339,15 +339,26 @@
       background: transparent;
       border: none;
     }
-    .visible {
-      display: block;
-    }
+   
     .invisible {
       display: none;
     }
-    .dropdown-menu-contents {
+    .dropdown-menu-contents .icon__container {
       display: block;
-      width: fit-content;
-      background: blue;
+      /* position: absolute; */
+      margin-bottom: .5rem;
+    }
+    .dropdown-menu-contents {
+      display: none;
+      position: absolute;
+      bottom: 58%;
+      right: 4.5%;
+      z-index: 70;
+      background: lightcoral;
+      padding: .5rem;
+      border-radius: .5rem;
+    }
+    .visible {
+      display: block;
     }
   }

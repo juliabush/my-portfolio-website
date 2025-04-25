@@ -1,13 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
   const dropdownMenu = document.getElementById("dropdown-menu");
   const openMenu = document.getElementById("open-menu");
+  const menuContents = document.getElementById("menu-contents")
   dropdownMenu.addEventListener("click", () => {
     dropdownMenu.classList.add("invisible");
     openMenu.classList.add("visible");
+    menuContents.classList.add("visible");
   });
   openMenu.addEventListener("click", () => {
     dropdownMenu.classList.remove("invisible");
     openMenu.classList.remove("visible");
+    menuContents.classList.remove("visible");
   });
 });
 
