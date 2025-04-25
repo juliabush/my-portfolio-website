@@ -1,165 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Julia Bush Portfolio Website with various projects and links to social media profiles">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#10024;</text></svg>">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Julia Bush Portfolio Website with various projects and links to social media profiles"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#10024;</text></svg>"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <script defer src="main.js"></script>
     <title>juliabush.dev</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <img class="stars-layover" src="/images/bg-stars.svg" alt="Background image layover of stars">
-        <article class="website__text-container">
-            <h1 class="heading__name">Julia Bush</h1>
-            <p class="main__paragraph">Passionate about Frontend Engineering</p>
-            <p class="main__paragraph">Building Engaging User Experiences</p>
+      <img
+        class="stars-layover"
+        src="/images/bg-stars.svg"
+        alt="Background image layover of stars"
+      />
+      <article class="website__text-container">
+        <h1 class="heading__name">Julia Bush</h1>
+        <p class="main__paragraph">Passionate about Frontend Engineering</p>
+        <p class="main__paragraph">Building Engaging User Experiences</p>
+      </article>
+      <article>
+        <div class="button" id="dropdown-menu">
+          <i class="fa-solid fa-bars hamburger-icon"></i>
+        </div>
+        <div class="button-2" id="open-menu">
+          <i class="fa-solid fa-caret-down hamburger-icon"></i>
+        </div>
+        <div class="dropdown-menu-contents" id="menu-contents">
+          <div class="icon__container">
+            <a
+              href="mailto:j.elizabethbush@gmail.com"
+              aria-label="Email Julia Bush at j.elizabethbush@gmail.com"
+              target="_blank"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+
+          <div class="icon__container">
+            <a
+              href="https://github.com/juliabush"
+              aria-label="Check out Julia Bush on Github"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github github"></i>
+            </a>
+          </div>
+
+          <div class="icon__container">
+            <a
+              href="https://www.linkedin.com/in/julia-bush-7711b7311/"
+              aria-label="Check out Julia Bush on LinkedIn"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin linkedin"></i>
+            </a>
+          </div>
+          <div class="icon__container">
+            <a
+              href="/Julia Bush Resume Final.pdf"
+              aria-label="Check out Julia Bush's resume and her qualifications"
+              target="_blank"
+            >
+              <i class="fa-solid fa-newspaper"></i>
+            </a>
+          </div>
+        </div>
+        <div class="icon-family__container">
+          <i class="fa-solid fa-angle-up angle-up-menu-open" id="menu-open"></i>
+
+          <div class="icon__container">
+            <p>Email</p>
+            <a
+              href="mailto:j.elizabethbush@gmail.com"
+              aria-label="Email Julia Bush at j.elizabethbush@gmail.com"
+              target="_blank"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+
+          <div class="icon__container">
+            <p>GitHub</p>
+            <a
+              href="https://github.com/juliabush"
+              aria-label="Check out Julia Bush on Github"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github github"></i>
+            </a>
+          </div>
+
+          <div class="icon__container">
+            <p>LinkedIn</p>
+            <a
+              href="https://www.linkedin.com/in/julia-bush-7711b7311/"
+              aria-label="Check out Julia Bush on LinkedIn"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin linkedin"></i>
+            </a>
+          </div>
+          <div class="icon__container">
+            <p>Résumé</p>
+            <a
+              href="/Julia Bush Resume Final.pdf"
+              aria-label="Check out Julia Bush's resume and her qualifications"
+              target="_blank"
+            >
+              <i class="fa-solid fa-newspaper"></i>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="project-carousel__container" id="carousel-container">
+        <div class="project-carousel" id="carousel-track">
+          <div class="carousel-card">
+            <div class="iframe__container">
+              <iframe
+                src="https://asktarotanything.com/"
+                title="asktarotanything.com website tarot ai generator"
+                frameborder="0"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <p class="stack">HTML, CSS and vanilla JavaScript</p>
+            <p class="project-title">Tarot AI - Full Stack App</p>
+            <div class="icon-button__flexbox">
+              <div class="icon__container">
+                <a
+                  href="https://github.com/juliabush/tarot-AI"
+                  aria-label="Check out my Tarot AI project on github"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github github"></i>
+                </a>
+              </div>
+              <a
+                href="https://asktarotanything.com/"
+                aria-label="See the asktarotanything.com tarot AI generator project with this link"
+                target="_blank"
+                ><button>View</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-card">
+            <div><img src="images/tpscreenshot.png" alt="" /></div>
+            <p class="stack">HTML, CSS and vanilla JavaScript</p>
+            <p class="project-title">Tip Calculator</p>
+            <p class="project-title caption">
+              A responsive tip calculator that computes per-person totals based
+              on bill amount, tip percentage, and number of people. Includes
+              real-time calculations, input validation, and reset functionality
+              for a smooth user experience.
             </p>
-        </article>
-        <article>
-            <div class="button" id="dropdown-menu"><i class="fa-solid fa-bars hamburger-icon"></i></div>
-            <div class="button-2" id="open-menu"><i class="fa-solid fa-caret-down hamburger-icon"></i></div>
-                <div class="dropdown-menu-contents" id="menu-contents">
-                    <div class="icon__container">
-                        <a href="mailto:j.elizabethbush@gmail.com" aria-label="Email Julia Bush at j.elizabethbush@gmail.com" target="_blank">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
-                    </div>
-                    
-                    <div class="icon__container">
-                        <a href="https://github.com/juliabush" aria-label="Check out Julia Bush on Github" target="_blank">
-                            <i class="fa-brands fa-github github"></i>
-                        </a>
-                    </div>              
-                    
-                    <div class="icon__container">
-                        <a href="https://www.linkedin.com/in/julia-bush-7711b7311/" aria-label="Check out Julia Bush on LinkedIn" target="_blank">
-                            <i class="fa-brands fa-linkedin linkedin"></i>
-                        </a>
-                    </div>
-                   <div class="icon__container">
-                       <a href="/Julia Bush Resume Final.pdf" aria-label="Check out Julia Bush's resume and her qualifications" target="_blank">
-                           <i class="fa-solid fa-newspaper"></i>
-                       </a>
-                   </div> 
-                 </div>
-            <div class="icon-family__container">
-                 <i class="fa-solid fa-angle-up angle-up-menu-open" id="menu-open"></i>
-             
-                <div class="icon__container">
-                    <p>Email</p>
-                    <a href="mailto:j.elizabethbush@gmail.com" aria-label="Email Julia Bush at j.elizabethbush@gmail.com" target="_blank">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                </div>
-                
-                <div class="icon__container">
-                    <p>GitHub</p>
-                    <a href="https://github.com/juliabush" aria-label="Check out Julia Bush on Github" target="_blank">
-                        <i class="fa-brands fa-github github"></i>
-                    </a>
-                </div>              
-                
-                <div class="icon__container">
-                    <p>LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/julia-bush-7711b7311/" aria-label="Check out Julia Bush on LinkedIn" target="_blank">
-                        <i class="fa-brands fa-linkedin linkedin"></i>
-                    </a>
-                </div>
-               <div class="icon__container">
-                    <p>Résumé</p>
-                   <a href="/Julia Bush Resume Final.pdf" aria-label="Check out Julia Bush's resume and her qualifications" target="_blank">
-                       <i class="fa-solid fa-newspaper"></i>
-                   </a>
-               </div>               
+            <div class="icon-button__flexbox">
+              <div class="icon__container">
+                <a
+                  href="https://github.com/juliabush/tip-calculator-app"
+                  aria-label="Check out the github for the tip calculator app"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github github"></i>
+                </a>
+              </div>
+              <a
+                href="https://tipcalculatorjulia.netlify.app/"
+                aria-label="Check out the tip calculator app on netlify"
+                target="_blank"
+                ><button>View</button></a
+              >
             </div>
-        </article>
-        <article class="project-carousel__container" id="carousel-container">
-            <div class="project-carousel" id="carousel-track">
-                <div class="carousel-card">
-              <div class="iframe__container"><iframe src="https://asktarotanything.com/" title="asktarotanything.com website tarot ai generator" frameborder="0" scrolling="no"></iframe></div>
-                <p class="stack">HTML, CSS and vanilla JavaScript</p>
-                <p class="project-title">Tarot AI - Full Stack App</p>
-                <div class="icon-button__flexbox">
-                    <div class="icon__container">
-                    
-                        <a href="https://github.com/juliabush/tarot-AI" aria-label="Check out my Tarot AI project on github" target="_blank">
-                            <i class="fa-brands fa-github github"></i>
-                        </a>
-                    </div>
-                    <a href="https://asktarotanything.com/" aria-label="See the asktarotanything.com tarot AI generator project with this link" target="_blank"><button>View</button></a>
-                </div>
-                </div>
-                <div class="carousel-card">
-              <div><img src="images/tpscreenshot.png" alt=""></div>
-              <p class="stack">HTML, CSS and vanilla JavaScript</p>
-              <p class="project-title">Tip Calculator</p>
-              <p class="project-title caption">A responsive tip calculator that computes per-person totals based on bill amount, tip percentage, and number of people.
-                Includes real-time calculations, input validation, and reset functionality for a smooth user experience.
-               </p>
-              <div class="icon-button__flexbox">
-                  <div class="icon__container">
-                  
-                      <a href="https://github.com/juliabush/tip-calculator-app" aria-label="Check out the github for the tip calculator app" target="_blank">
-                          <i class="fa-brands fa-github github"></i>
-                      </a>
-                  </div>
-                  <a href="https://tipcalculatorjulia.netlify.app/" aria-label="Check out the tip calculator app on netlify" target="_blank"><button>View</button></a>
-              </div>
-                </div>
-                <div class="carousel-card">
-              <div><img id="extended-image" src="/images/clpscreenshot.png" alt=""></div>
-              <p class="stack">HTML, CSS and vanilla JavaScript</p>
-              <p class="project-title">Clipboard Landing Page</p>
-              <p></p>
-              <div class="icon-button__flexbox">
-                  <div class="icon__container">
-                      <a href="https://github.com/juliabush/clipboard-landing-page" aria-label="Check out the clipboard landing page on github" target="_blank">
-                          <i class="fa-brands fa-github github"></i>
-                      </a>
-                  </div>
-                  <a href="https://clipboardlandingpageee.netlify.app/" aria-label="Check out the clipboard landing page on netlify" target="_blank"><button>View</button></a>
-              </div>
-                </div>
-                <div class="carousel-card">
-              <div><img id="extended-image" src="/images/lsscreenshot.png" alt=""></div>
-              <p class="stack">HTML, SCSS and vanilla JavaScript</p>
-              <p class="project-title">Loopstudio Landing Page</p>
-              <p></p>
-              <div class="icon-button__flexbox">
-                  <div class="icon__container">
-                      <a href="https://github.com/juliabush/loopstudios-landing-page" aria-label="Check out the loopstudios landing page on github" target="_blank">
-                          <i class="fa-brands fa-github github"></i>
-                      </a>
-                  </div>
-                  <a href="https://loopstudioslandingpagejulia.netlify.app/" aria-label="Check out the loopstudios landing page on netlify" target="_blank"><button>View</button></a>
-              </div>
-                </div>
-                <div class="carousel-card">
-              <div><img src="/images/ttscreenshot.png" alt=""></div>
-              <p class="stack">HTML, CSS and vanilla JavaScript</p>
-              <p class="project-title">Time Tracking Dashboard</p>
-              <p class="project-title caption">Displays daily, weekly, and monthly activity.
-                Follows CSS best practices (like BEM notation).
-                Dynamically renders data from a local JSON file.
-                Mobile-first design with smooth hover effects for an engaging UX across devices.</p>
-              <div class="icon-button__flexbox">
-                  <div class="icon__container">
-                      <a href="https://github.com/juliabush/time-tracking-dashboard" aria-label="Check out the time tracking dashboard on github" target="_blank">
-                          <i class="fa-brands fa-github github"></i>
-                      </a>
-                  </div>
-                  <a href="https://besttimetrackingdashboard.netlify.app/" aria-label="Check out the time tracking dashboard on netlify" target="_blank"><button>View</button></a>
-                    </div>
-              </div>
+          </div>
+          <div class="carousel-card">
+            <div>
+              <img id="extended-image" src="/images/clpscreenshot.png" alt="" />
             </div>
-            <!-- <div class="carousel-card">
+            <p class="stack">HTML, CSS and vanilla JavaScript</p>
+            <p class="project-title">Clipboard Landing Page</p>
+            <p></p>
+            <div class="icon-button__flexbox">
+              <div class="icon__container">
+                <a
+                  href="https://github.com/juliabush/clipboard-landing-page"
+                  aria-label="Check out the clipboard landing page on github"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github github"></i>
+                </a>
+              </div>
+              <a
+                href="https://clipboardlandingpageee.netlify.app/"
+                aria-label="Check out the clipboard landing page on netlify"
+                target="_blank"
+                ><button>View</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-card">
+            <div>
+              <img id="extended-image" src="/images/lsscreenshot.png" alt="" />
+            </div>
+            <p class="stack">HTML, SCSS and vanilla JavaScript</p>
+            <p class="project-title">Loopstudio Landing Page</p>
+            <p></p>
+            <div class="icon-button__flexbox">
+              <div class="icon__container">
+                <a
+                  href="https://github.com/juliabush/loopstudios-landing-page"
+                  aria-label="Check out the loopstudios landing page on github"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github github"></i>
+                </a>
+              </div>
+              <a
+                href="https://loopstudioslandingpagejulia.netlify.app/"
+                aria-label="Check out the loopstudios landing page on netlify"
+                target="_blank"
+                ><button>View</button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-card">
+            <div><img src="/images/ttscreenshot.png" alt="" /></div>
+            <p class="stack">HTML, CSS and vanilla JavaScript</p>
+            <p class="project-title">Time Tracking Dashboard</p>
+            <p class="project-title caption">
+              Displays daily, weekly, and monthly activity. Follows CSS best
+              practices (like BEM notation). Dynamically renders data from a
+              local JSON file. Mobile-first design with smooth hover effects for
+              an engaging UX across devices.
+            </p>
+            <div class="icon-button__flexbox">
+              <div class="icon__container">
+                <a
+                  href="https://github.com/juliabush/time-tracking-dashboard"
+                  aria-label="Check out the time tracking dashboard on github"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github github"></i>
+                </a>
+              </div>
+              <a
+                href="https://besttimetrackingdashboard.netlify.app/"
+                aria-label="Check out the time tracking dashboard on netlify"
+                target="_blank"
+                ><button>View</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- <div class="carousel-card">
                 <div><img src="images/newscreenshot.png" alt=""></div>
                 <p>HTML, CSS and vanilla JavaScript</p>
                 <p></p>
@@ -174,8 +284,12 @@
                     <button>View</button>
                 </div>
                   </div> -->
-        </article>
-        <img class="pattern-hills-layover" src="/images/pattern-hills.svg" alt="Background image layover of hills">
+      </article>
+      <img
+        class="pattern-hills-layover"
+        src="/images/pattern-hills.svg"
+        alt="Background image layover of hills"
+      />
     </main>
-</body>
+  </body>
 </html>
