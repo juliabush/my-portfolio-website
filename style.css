@@ -268,7 +268,7 @@ iframe {
   }
 }
 @media (max-width: 880px) {
-  .icon__container {
+  .icon-family__container {
     display: none;
     justify-items: center;
     gap: 0.1rem;
