@@ -48,7 +48,7 @@ ol[role="list"] {
 html,
 body {
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Manrope";
 }
 main {
