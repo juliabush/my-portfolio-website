@@ -67,7 +67,7 @@ main {
   display: grid;
   place-content: start;
   color: white;
-  margin: 5%;
+  margin: 3.5%;
 }
 .pattern-hills-layover {
   position: absolute;
@@ -90,7 +90,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 5%;
+  margin: 3.5%;
   place-self: end;
   display: flex;
   gap: 2rem;
@@ -130,7 +130,7 @@ main {
   overflow-x: hidden;
   position: relative;
   z-index: 15;
-  bottom: 13%;
+  bottom: 8%;
   width: 100%;
 }
 .project-carousel {
@@ -368,7 +368,7 @@ iframe {
   .invisible {
     display: none;
   }
-  .flex-dropdown .dropdown-menu-contents .icon__container {
+  .dropdown-menu-contents .icon__container {
     display: block;
     /* position: absolute; */
     margin-bottom: 0.5rem;
