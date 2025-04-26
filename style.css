@@ -320,7 +320,7 @@ iframe {
   .dropdown-menu-contents {
     display: none;
     position: absolute;
-    bottom: 58%;
+    top: 12%;
     right: 4%;
     z-index: 70;
     background: lightcoral;
@@ -368,7 +368,7 @@ iframe {
   .invisible {
     display: none;
   }
-  .dropdown-menu-contents .icon__container {
+  .flex-dropdown .dropdown-menu-contents .icon__container {
     display: block;
     /* position: absolute; */
     margin-bottom: 0.5rem;
@@ -376,7 +376,7 @@ iframe {
   .dropdown-menu-contents {
     display: none;
     position: absolute;
-    bottom: 58%;
+    top: 12%;
     right: 4.5%;
     z-index: 70;
     background: lightcoral;
@@ -454,16 +454,18 @@ iframe {
   .dropdown-menu-contents .icon__container {
     display: block;
     /* position: absolute; */
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.75rem; */
   }
   .dropdown-menu-contents {
     display: none;
     position: absolute;
-    bottom: 58%;
-    right: 4.5%;
+    top: 12%;
+    right: 3%;
     z-index: 70;
     background: lightcoral;
+    height: min-content;
     padding: 0.5rem;
+    padding-bottom: 1.5rem;
     border-radius: 0.5rem;
   }
   .visible {
