@@ -279,6 +279,57 @@ iframe {
     font-size: 2rem;
     margin-top: 0.5rem;
   }
+  .button {
+    /* display: none; */
+    /* position: relative;
+      bottom: 320%;
+      left: 87%;
+      z-index: 60;
+      background: transparent;
+      border: none; */
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 91.5%;
+    z-index: 67;
+    background: transparent;
+    border: none;
+  }
+  .button-2 {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 91.5%;
+    z-index: 60;
+    background: transparent;
+    border: none;
+  }
+
+  .invisible {
+    display: none;
+  }
+  .dropdown-menu-contents .icon__container {
+    display: block;
+    /* position: absolute; */
+    margin-bottom: 0.5rem;
+  }
+  .dropdown-menu-contents .icon__container a:hover {
+    border: 2px solid aqua;
+    color: aqua;
+  }
+  .dropdown-menu-contents {
+    display: none;
+    position: absolute;
+    bottom: 58%;
+    right: 4%;
+    z-index: 70;
+    background: lightcoral;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .visible {
+    display: block;
+  }
 }
 @media (max-width: 600px) {
   .website__text-container {
@@ -287,6 +338,53 @@ iframe {
   .main__paragraph {
     font-size: 1.3rem;
     margin-bottom: 0.25rem;
+  }
+  .button {
+    /* display: none; */
+    /* position: relative;
+      bottom: 320%;
+      left: 87%;
+      z-index: 60;
+      background: transparent;
+      border: none; */
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 88.5%;
+    z-index: 67;
+    background: transparent;
+    border: none;
+  }
+  .button-2 {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 88.5%;
+    z-index: 60;
+    background: transparent;
+    border: none;
+  }
+
+  .invisible {
+    display: none;
+  }
+  .dropdown-menu-contents .icon__container {
+    display: block;
+    /* position: absolute; */
+    margin-bottom: 0.5rem;
+  }
+  .dropdown-menu-contents {
+    display: none;
+    position: absolute;
+    bottom: 58%;
+    right: 4.5%;
+    z-index: 70;
+    background: lightcoral;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .visible {
+    display: block;
   }
 }
 @media (min-width: 260px) and (max-width: 500px) {
